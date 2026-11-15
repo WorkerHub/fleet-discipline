@@ -19,6 +19,7 @@
 | 文件 | 是什么 | 落点 |
 |---|---|---|
 | `fleet-discipline/SKILL.md` | 团队 Skill《舰队纪律》全文（破晓号默认 Skill） | 团队 Skills 库，关联本仓库后自动更新 |
+| `CHANGELOG.md` | 纪律内容变更记录 | 仓库根目录 |
 | `fleet-discipline/references/charter.md` | 指挥官 的 Charter 正文（文件内代码块部分） | Chief settings → Charter（暂仍手动粘贴，改动时以本文件为准） |
 
 ## 修改与发布流程
@@ -29,16 +30,7 @@
 
 ## 版本说明
 
-### 1.0.0（2026-11-15）
-
-首个正式版本：
-
-- 《舰队纪律》Skill 与指挥官 Charter 定版，本仓库为唯一真源；
-- 2026-11-15 纪律优化轮全部落地：真源与落地标准、简单档常设授权、CI 与合并顺序、三档分流；
-- 目录按 Agent Skills 规范整理：`SKILL.md` 为入口，Charter 移入 `references/`；
-- README 补齐团队架构图与五人角色定义；
-- 采用 MIT 许可证。
-
+见 [CHANGELOG.md](CHANGELOG.md)。
 ## License
 
 [MIT](LICENSE)
